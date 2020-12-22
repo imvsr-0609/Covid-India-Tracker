@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dashBoard"
+        android:icon="@drawable/covid_icon_foreground"
+        android:title="" />
+    <item
+        android:id="@+id/listView"
+        android:icon="@drawable/chart_icon_foreground"
+        android:title="" />
+    <item
+        android:id="@+id/precaution"
+        android:icon="@drawable/mask_icon_foreground"
+        android:title="" />
+</menu>

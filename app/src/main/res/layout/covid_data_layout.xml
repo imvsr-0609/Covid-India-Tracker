@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:background="#F1F1F1"
+                android:layout_margin="2dp" android:layout_weight=".32">
+
+                <TextView
+                    android:id="@+id/state_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="Maharashtra"
+                    android:textColor="#353434"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp" android:layout_height="match_parent"
+                 android:background="#F1F1F1"
+                android:layout_margin="2dp"   android:layout_weight=".16">
+
+                <TextView
+                    android:id="@+id/confirmed_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:padding="5sp"
+                    android:text="9999"
+                    android:textAlignment="textEnd"
+                    android:textColor="#353434"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp" android:layout_height="match_parent"
+               android:background="#F1F1F1"
+                android:layout_margin="2dp"   android:layout_weight=".16">
+
+                <TextView
+                    android:id="@+id/active_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:padding="5sp"
+                    android:text="9999"
+                    android:textAlignment="textEnd"
+                    android:textColor="#353434"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp" android:layout_height="match_parent"
+                 android:background="#F1F1F1"
+                android:layout_margin="2dp"  android:layout_weight=".16">
+
+                <TextView
+                    android:id="@+id/recovered_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:padding="5sp"
+                    android:text="9999"
+                    android:textAlignment="textEnd"
+                    android:textColor="#353434"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp" android:layout_height="match_parent"
+                android:background="#F1F1F1"
+                android:layout_margin="2dp"   android:layout_weight=".16">
+
+                <TextView
+                    android:id="@+id/death_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:padding="5sp"
+                    android:text="9999"
+                    android:textAlignment="textEnd"
+                    android:textColor="#353434"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
